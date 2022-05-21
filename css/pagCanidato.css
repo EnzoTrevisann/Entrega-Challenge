@@ -4,7 +4,7 @@
 
 *{
   
-  font-family: 'Poppins', sans-serif;
+  font-family:'Montserrat', sans-serif;
 }
 
 body{
@@ -58,7 +58,7 @@ section .card .image{
   width: 140px;
   border-radius: 50%;
   padding: 3px;
-  background: #3d7aa3;
+  background: #dbdbdb;
 }
 
 section .card .image img{
@@ -67,27 +67,6 @@ section .card .image img{
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid #fff;
-}
-
-.card .media-icons{
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.card .media-icons i{
-  color: #fff;
-  opacity: 0.6;
-  margin-top: 10px;
-  transition: all 0.3s ease;
-  cursor: pointer;
-}
-
-.card .media-icons i:hover{
-  opacity: 1;
 }
 
 .card .name-profession{
@@ -141,12 +120,12 @@ section .card .image img{
   height: 7px;
   width: 26px;
   border-radius: 25px;
-  background: #1f7a8c;
+  background: #4991c0;
 }
 
 .swiper-button-next, .swiper-button-prev{
   opacity: 0.7;
-  color: #1f7a8c;
+  color: #4991c0;
   transition: all 0.3s ease;
 }
 

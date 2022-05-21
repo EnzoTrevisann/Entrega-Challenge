@@ -6,6 +6,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
 }
 
 body {
@@ -90,15 +95,18 @@ nav a {
 footer {
   background-color: #4991c0;
   padding: 30px;
-  height: 90px;
+  
   border-top: #3d7aa3 2px solid;
+  color: white;
+  display: flex;
 }
 
 footer p {
-  color: white;
   font: 18px Arial, Helvetica, sans-serif;
   text-align: center;
   margin-top: 10px;
+  position: absolute;
+  left: 42%;
 }
 
 .three_box {
@@ -168,6 +176,8 @@ a {
   border: #4991c0 solid 1px;
   border-radius: 15px;
   display: flex;
+
+  box-shadow: #3d7aa3 0px 0px 9px 4px;
 }
 
 .imagem_error{

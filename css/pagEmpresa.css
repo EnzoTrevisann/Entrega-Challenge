@@ -1,33 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
 
-/* === Google Font Import - Poppins === */
-
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
 }
 
 body{
   height: 100vh;
-  display: flex;
   align-items: center;
   justify-content: center;
   background: #f2f2f2;
+  font-family: 'Montserrat', sans-serif;
 }
 
 section{
   position: relative;  
-  height: 450px;
-  width: 1075px;
-  display: flex;
-  align-items: center;
 }
 
-.swiper{
-  width: 950px;
-}
+.titulo2{
+  color: #3d7aa3;
+  text-align: center;
+  margin:15px;
+} 
 
 .card{
   position: relative;
@@ -53,6 +48,7 @@ section{
   padding: 30px;
   position: relative;
   z-index: 100;
+  height: 285px;
 }
 
 section .card .image{
@@ -136,18 +132,30 @@ section .card .image img{
 }
 
 .swiper-pagination{
-  position: absolute;
+  position: relative;
+  
 }
 
 .swiper-pagination-bullet{
   height: 7px;
   width: 26px;
   border-radius: 25px;
-  background: #1f7a8c;
+  background: #4991c0;
 }
 
 .swiper-button-next, .swiper-button-prev{
   opacity: 0.7;
-  color: #1f7a8c;
+  color: #4991c0;
   transition: all 0.3s ease;
+}
+
+.swiper-rtl .swiper-button-prev {
+  right: 125px;
+  left: auto
+}
+
+.footer_empresa{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }

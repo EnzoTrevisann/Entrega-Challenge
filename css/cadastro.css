@@ -1,13 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 /* ========PÁGINA DE CADASTRO========================================================================= */
-.body_cadastro {
-  font-family: 'Montserrat', sans-serif;
-  margin: 0;
-}
 
 .main_cadastro{
-  height: 100vh;
+  height: 900px; 
   background: #ebebeb;
   display: flex;
   justify-content: center;
@@ -24,6 +20,7 @@
 }
 
 .cadastro_esquerda h1{
+  font-size: 2vw;
   color: #012a4a;
  }
 
@@ -34,15 +31,15 @@
 .cadastro_direita {
   width: 50vw;
   height: 30vw;
-  display: flex;
+  display: flex;                            
   justify-content: center;
   align-items: center;
 }
 
 .card_cadastro{
+  height: 30% auto;
   width: 80%;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 30px 35px;
@@ -100,12 +97,6 @@
   cursor: pointer;
 }
 
-.karenCriou{
-  margin:10px;
-  font-family: 'Montserrat', sans-serif;
-
-}
-
 ::placeholder{
   color:#e3e7e7c5;
 }
@@ -113,3 +104,30 @@
 .card_cadastro h1 {
   margin: 0px 0px 8px
 }
+
+@media only screen and (max-width: 950px) {
+  .card_cadastro{
+    width: 85%;
+  }
+}
+
+@media only screen and  (max-width: 600px) {
+  .main_cadastro{
+    flex-direction: column;
+  }
+  .cadastro_esquerda h1 {
+    display: none;
+  }
+
+  .cadastro_esquerda{
+    width: 100%;
+    height: auto;
+  }
+
+  .cadastro_direita{
+    width: 100%;
+    height: auto;
+  }
+
+}
+
